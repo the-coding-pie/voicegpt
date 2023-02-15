@@ -7,7 +7,7 @@ from time import sleep
 name = "Arvind"
 
 # open ai configs
-openai.api_key = ""
+openai.api_key = "" # your openai api key here
 model_engine = "text-davinci-003"
 
 # instance of sr Recognizer
