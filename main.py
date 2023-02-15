@@ -42,7 +42,7 @@ def recognize_voice():
 
         # recognize it
         try:
-            text = r.recognize_google(audio, language="ml")
+            text = r.recognize_google(audio)
             prompt(text)
             reply(text)
         except sr.RequestError:
